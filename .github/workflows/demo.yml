@@ -1,0 +1,8 @@
+name: Demo Workfow
+on: workflow_dispatch
+jobs:
+  print:
+    run-on: ubuntu-latest
+    steps:
+      - name: Print to  Console
+        run: echo Hello GHA
